@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Luxe Hotel</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+      
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="nav-wrapper">
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">GRAND LUXE</a>
+                <div class="nav-links">
+                    <a href="#rooms">Rooms</a>
+                    <a href="#amenities">Amenities</a>
+                    <a href="#dining">Dining</a>
+                    <a href="#spa">Spa</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <a href="#booking" class="book-now-btn">Book Now</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Experience Luxury<br>Beyond Imagination</h1>
+                <p>Where exceptional service meets unparalleled comfort</p>
+                <a href="#booking" class="book-now-btn">Book Your Stay</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="rooms">
+        <div class="container">
+            <div class="section-header">
+                <h2>Luxury Accommodations</h2>
+                <p>Choose from our exquisite selection of rooms and suites</p>
+            </div>
+            <div class="rooms-grid">
+                <div class="room-card">
+                    <img src="./Assets/Images/Deluxe room.jpg" alt="Deluxe Room" class="room-image">
+                    <div class="room-overlay">
+                        <h3>Deluxe Room</h3>
+                        <p>Experience comfort in our spacious deluxe rooms</p>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <img src="./Assets/Images/Executive room.jpg" alt="Executive Suite" class="room-image">
+                    <div class="room-overlay">
+                        <h3>Executive Suite</h3>
+                        <p>Indulge in luxury with our executive suites</p>
+                    </div>
+                </div>
+                <div class="room-card">
+                    <img src="./Assets/Images/PRE.jpg" alt="Presidential Suite" class="room-image">
+                    <div class="room-overlay">
+                        <h3>Presidential Suite</h3>
+                        <p>The ultimate in luxury accommodation</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="amenities">
+        <div class="container">
+            <div class="section-header amenities-header">
+                <h2>Hotel Amenities</h2>
+                <p>Discover our world-class facilities</p>
+            </div>
+            <div class="amenities-grid">
+                <div class="amenity-card">
+                    <i class="fas fa-swimming-pool"></i>
+                    <h3>Infinity Pool</h3>
+                    <p>Enjoy our rooftop infinity pool with panoramic views</p>
+                </div>
+                <div class="amenity-card">
+                    <i class="fas fa-spa"></i>
+                    <h3>Luxury Spa</h3>
+                    <p>Relax and rejuvenate at our world-class spa</p>
+                </div>
+                <div class="amenity-card">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Fine Dining</h3>
+                    <p>Experience culinary excellence at our restaurants</p>
+                </div>
+                <div class="amenity-card">
+                    <i class="fas fa-dumbbell"></i>
+                    <h3>Fitness Center</h3>
+                    <p>Stay fit in our state-of-the-art gym</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking">
+        <div class="container">
+            <div class="section-header">
+                <h2>Book Your Stay</h2>
+                <p>Begin your luxury experience</p>
+            </div>
+            <form class="booking-form">
+                <div class="form-group">
+                    <label for="check-in">Check In</label>
+                    <input type="date" id="check-in" required>
+                </div>
+                <div class="form-group">
+                    <label for="check-out">Check Out</label>
+                    <input type="date" id="check-out" required>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Guests</label>
+                    <select id="guests" required>
+                        <option value="1">1 Adult</option>
+                        <option value="2">2 Adults</option>
+                        <option value="3">3 Adults</option>
+                        <option value="4">4 Adults</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="room-type">Room Type</label>
+                    <select id="room-type" required>
+                        <option value="deluxe">Deluxe Room</option>
+                        <option value="executive">Executive Suite</option>
+                        <option value="presidential">Presidential Suite</option>
+                    </select>
+                </div>
+                <button type="submit" class="book-now-btn check-avalability">Check Availability</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GRAND LUXE</h3>
+                    <p>123 Luxury Avenue<br>
+                    Paradise City, Indore 100203<br>
+                    Phone: (555) 221-2876</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="#rooms">Rooms & Suites</a></p>
+                    <p><a href="#dining">Dining</a></p>
+                    <p><a href="#spa">Spa & Wellness</a></p>
+                    <p><a href="#events">Events</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Grand Luxe Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./script.js"></script>
+    
+</body>
+
+</html>
